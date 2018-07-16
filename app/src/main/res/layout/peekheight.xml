@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/layout_peekheight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="100dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <TextView
+            android:id="@+id/text_peek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EverBlock Systems offers a modular building system of oversized plastic blocks that facilitates the construction of all types of objects.  It's quick and easy to build nearly anything, by stacking and organizing the universal blocks in nearly any shape, pattern, or size.
+Anything you've constructed can be taken apart and re-assembled again, and the pieces can be re-used to build other objects, making EverBlock a unique green building method.
+We offer rentals and sales of EverBlock®  as well as design and installation services.   We can consult with you on large scale or complex projects and provide customized solutions to meet your needs.
+My favorite blogs to read have changed throughout the years, but one thing that hasn’t is my love for reading them. Most recently, I’m loving blogs that focus on personal growth and mindfulness. I love bloggers who discuss how we can improve our mind, body, and soul. We’re all trying to become better people and improve ourselves, so it’s nice to find blogs where we can learn how to do that and how to foster great relationships with ourselves and others. Whether we’re trying to learn how to be more productive, get in shape, or how to achieve our goals, websites focusing on these personal development topics can get us inspired and motivate us to put some real effort into ourselves.
+" />
+    </LinearLayout>
+</layout>

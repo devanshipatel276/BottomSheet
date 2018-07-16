@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="inexture.com.simpledemo.MainActivity">
+
+        <Button
+            android:id="@+id/btn_viewactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Persisten BottomSheet Activity" />
+
+        <Button
+            android:id="@+id/btn_fragementactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Model BottomSheet Activity" />
+
+        <Button
+            android:id="@+id/btn_listactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Model BottomSheet with List Activity" />
+
+    </LinearLayout>
+</layout>
